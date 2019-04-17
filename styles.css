@@ -1,0 +1,89 @@
+header{
+    height: 60px;
+    background-color: #000000;
+}
+button{
+    float: right;
+}
+nav{
+    float: right;
+}
+nav ul li{
+    list-style-type:none;
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    padding:20px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+nav ul li a:hover{
+    color: #ffff0a;
+}
+.container{
+    background-color: #1cf700;
+    padding: 20px;
+}
+.container h1{
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.container > img {
+    float: left;
+    height: 300px;
+    border: 1px hidden;
+    border-radius: 20%;
+    margin-left: 80px;
+}
+.container > p {
+    font-family: 'Patrick Hand', cursive;
+    width : 60%;
+    border :1px hidden;
+    margin-left: 25%;
+    font-size: 20px;
+    margin-left: 30%;
+    margin-top: 20%;
+    padding-left: 20px
+
+}
+.container > p > a {
+    text-decoration: none;
+    color: red;
+}
+table{
+    border-collapse: separate;
+    margin-left: 15%;
+    height: 400px;
+    width: 500px;
+    margin-top: 40px;
+    border-radius: 20px;
+
+
+}
+th,td{
+    border :1px solid grey;
+    font-family: 'Noto Serif', serif;
+    border-radius: 20px;
+
+}
+th{
+    background-color: aliceblue;
+}
+td{
+    padding: 10px;
+}
+form{
+    margin-top: 40px;
+}
+form input{
+    display: block;
+    margin:20px;
+    width: 400px;
+}
+.input{
+    height: 220px;
+    width: 800px;
+}
